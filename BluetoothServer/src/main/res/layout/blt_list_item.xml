@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="66dp">
+
+    <TextView
+        android:id="@+id/blt_status"
+        android:layout_alignParentEnd="true"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        />
+
+    <TextView
+        android:id="@+id/blt_rssi"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/blt_status"/>
+
+    <TextView
+        android:id="@+id/blt_name"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_toLeftOf="@+id/blt_rssi"/>
+
+    <TextView
+        android:id="@+id/blt_mac"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_toLeftOf="@+id/blt_rssi"
+        android:layout_below="@+id/blt_name"/>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jokerlee.bluetoothsample.MainActivity">
+
+    <ListView
+        android:id="@+id/blt_client_list"
+        android:layout_above="@+id/start_blt_server"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    <Button
+        android:id="@+id/start_blt_server"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:text="StartBluetoothServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
