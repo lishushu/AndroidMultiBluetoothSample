@@ -24,3 +24,5 @@ act gateways between piconets.
 
 For more information about the bluetooth ad hoc networking:
 http://www.netlab.tkk.fi/opetus/s38030/k02/Papers/16-Jari.pdf
+
+My Csdn Blog for this sample project : http://blog.csdn.net/dahaohan/article/details/51222335
